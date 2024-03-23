@@ -1,0 +1,141 @@
+
+
+
+@media (max-width:398px) {
+  .xxx-hero-button {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+/* .rasara-h1 {
+  font-size: clamp(24px, 5vw + 16px , 60px);
+  font-weight:900;
+  font-family:'Lato', Courier, monospace ;
+} */
+
+
+.xxx-img-home {
+   
+  animation: rasara-animation ease-in-out 3s 2s  infinite normal none ;
+}
+
+
+@keyframes rasara-animation {
+
+  0% {
+      transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(40px);
+  }
+  
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/* ################## */
+/* .xxx-rounded-circle:after{
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+} */
+
+
+/* ###### news letter section  */
+/* newsleter button section ######## */
+.email{
+  /* background: yellow; */
+  height: 60px;
+  width: 450px;
+  position: relative;
+
+}
+
+.email input{
+  height: 100%;
+  width: 450px;
+  padding-left: 50px;
+  font-size: 18px;
+  outline: none;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  border-radius: 50px;
+  border:none;
+  color: grey;  /* input text color */
+}
+
+ .email input::placeholder{
+color: gainsboro;
+}
+
+ .email .icon{
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: gainsboro;
+}
+
+.email .sbbtn{
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  transform: translate(-50%, -50%);
+ 
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  outline: none;
+  background: #FE6725;
+  color: white;
+  transition: 0.3s;
+}
+
+.email button:hover{
+  background:white;
+  color: #FE6725;
+  border: 1px solid #FE6725;
+}
+
+/* small screen nect btn  */
+.sbbtn2{
+  color: #FE6725;
+  font-size: 30px;
+  position: absolute;  
+  top: 50%;
+  right: 0px;
+  transform: translate(-50%, -50%);
+
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .email input , .email {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sbbtn2 {
+    display: block;
+  }
+
+}
+
+/* filter card css ######################################################################## */
+
+.card.hide {
+  display: none;
+  }
+
+button.active{
+ background-color: #FE6725;
+ color: white;
+ border: transparent;
+ outline: none;
+ }
+  

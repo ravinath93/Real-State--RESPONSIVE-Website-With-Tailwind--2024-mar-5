@@ -1,0 +1,615 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<!-- fontawsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- style css  -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="myStyle.css">
+</head>
+<body  >
+
+<!-- section navigation menu  -->
+<nav class="py-2 bg-rasara-bg-blue sticky top-0 z-50">
+
+  <div class="container md:px-3 md:flex md:items-center md:justify-between  ">
+
+    <!-- brand logo & mob icon ( m )  -->
+    <div class="flex  items-center justify-between">
+      <!-- barnd log  -->
+      <a href="index.html" class="flex items-center">
+        <img src="img/logo-1.png" alt="logo">
+        <span class="rasara-h5 text-rasara-orange font-Lato font-bold">Real Estate</span>
+      </a> 
+      <!-- mobile menu icon  -->
+      <span class="block  bg-rasara-orange p-2  rounded-md md:hidden text-center">
+        <i class="fa-solid fa-bars text-rasara-bg-blue text-[25px]" onclick="Menu(this)"> </i>         
+      </span> 
+    </div>
+
+    <!-- ul menu list   -->
+    <ul  class="p-3 z-10 absolute bg-rasara-bg-blue/80 backdrop-blur w-full left-0 py-4 opacity-0 top-[-400px] transition-all ease-in  duration-500 md:p-0 md:flex md:items-center  md:space-x-8 md:static md:w-auto md:opacity-100 md:text-[20px]  ">
+      <li class="md:my-0">
+        <a href="index.html" class=" duration-500 text-rasara-gray-1 hover:text-rasara-orange"> Home</a>
+      </li>
+      <li class="my-6 md:my-0">
+        <a href="" class=" duration-500 text-rasara-gray-1  hover:text-rasara-orange"> Buy</a>
+      </li>
+      <li class="my-6 md:my-0">
+        <a href="" class=" duration-500 text-rasara-gray-1  hover:text-rasara-orange"> Sell</a>
+      </li>
+      <li class="my-6 md:my-0">
+        <a href="" class=" duration-500 text-rasara-gray-1  hover:text-rasara-orange"> Contact Us</a>
+      </li>
+
+       <!-- button -->
+      <a href="">
+        <button type="button" class=" btn w-full rounded-[70px] px-6 py-1.5 text-center hover:bg-rasara-gray-3 hover:drop-shadow-md transition duration-500 ease-in-out"> Sell Now</button>
+      </a>
+    </ul> 
+    
+
+  </div>
+
+</nav> <!-- navigation menu - end  -->
+
+<!-- hero section   -->
+<section id="" class="box py-[5%] h-auto lg:h-[95vh] flex flex-col justify-between items-end   ">
+
+<!-- hero section- content1  -->
+<div class=" container  h-[95vh] lg:h-auto flex flex-wrap-reverse content-center	 items-center justify-end mb-10 lg:mb-0  ">
+
+  <!-- hero section- content1 - left   -->
+  <div class=" w-full text-center lg:text-left lg:w-1/2  ">
+
+    <h1 class="text-[30px] font-semibold sm:text-[40px] sm:font-semibold md:text-[50px] md:font-semibold lg:text-6xl lg:font-semibold">Discover your  <span class="text-rasara-orange"> Dream Home </span>  Awaits</h1>
+
+    <p class="py-4">In publishing and graphic design, <span class="text-rasara-orange">  Lorem ipsum </span>is a placeholder text commonly </p>
+
+    <!-- buttons  -->
+    <div>
+      <a href="" > <button class="xxx-hero-button btn  py-1.5 px-6 mr-2   rounded-[70px] hover:bg-rasara-gray-3"> Find Property</button></a>
+      <a href=""> <button class="btn2 py-1.5 px-6 rounded-[70px] hover:bg-rasara-orange ">Explore Now</button></a>
+    </div>
+   
+
+  </div>
+
+  <!-- hero section- content1 - right   -->
+  <div class=" w-full   lg:w-1/2  "> 
+  <img src="img/home-3.png" alt="" class="xxx-img-home mx-auto">
+  <!-- <img src="img/500 x 500.png" alt="hero-image" class=" ml-auto "> -->
+  </div>
+ 
+</div>
+
+<!-- hero section- content2  -->
+<div class="container py-[35px] bg-rasara-bg-blue rounded-[5px] lg:rounded-[70px] flex flex-wrap gap-y-10	justify-start lg:justify-evenly shadow-md  ">
+
+  <!-- box-1  -->
+  <div class="flex  justify-start items-center  border-rasara-gray-1 px-[2%] w-[100%]
+  sm:w-[48%] lg:w-auto ">
+    <!-- circle  -->
+    <div class="w-[50px] h-[50px] flex-shrink-0 rounded-[100%] mr-3 bg-white flex justify-center items-center border border-rasara-orange"> <i class="fa-solid fa-building text-rasara-orange"></i> </div>
+
+    <div class="flex flex-col">
+      <p > I’m Looking to .. </p> 
+      <p class="font-bold"> Buy Apartment > </p>
+    </div>
+   
+  </div>
+   <!-- box-2  -->
+   <div class="flex  justify-start items-center  border-rasara-gray-1  border-l-2 px-[2%]	 w-[100%]
+   sm:w-[48%] lg:w-auto">
+    <!-- circle  -->
+    <div class="w-[50px] h-[50px] flex-shrink-0 rounded-[100%] mr-3 bg-white flex justify-center items-center border border-rasara-orange"> <i class="fa-solid fa-building text-rasara-orange"></i> </div>
+
+    <div class="flex flex-col">
+      <p > Location.. </p> 
+      <p class="font-bold"> Dhanmondi, Dhaka > </p>
+    </div>
+   
+  </div>
+   <!-- box-3 -->
+   <div class="flex  justify-start items-center  border-rasara-gray-1  border-l-2 px-[2%] w-[100%]
+   sm:w-[48%] lg:w-auto	">
+    <!-- circle  -->
+    <div class="w-[50px] h-[50px] flex-shrink-0 rounded-[100%] mr-3 bg-white flex justify-center items-center border border-rasara-orange"> <i class="fa-solid fa-building text-rasara-orange"></i> </div>
+
+    <div class="flex flex-col">
+      <p > Price Range.. </p> 
+      <p class="font-bold"> $2000 - $40000 > </p>
+    </div>
+   
+  </div>
+   <!-- box-4  -->
+   <div class="flex  justify-start items-center  border-rasara-gray-1  border-l-2 px-[2%] w-[100%]
+    sm:w-[48%] lg:w-auto	">
+    <!-- button  -->
+   <button class="btn py-1 px-6 rounded-[70px]">Serach</button>
+   
+  </div>
+
+
+</div> <!--  end hero section- content2  -->
+
+</section> <!-- hero section  -end -->
+
+
+<!-- about us section   -->
+<section id="" class=" border bg-rasara-bg-blue  ">
+
+  <!-- about us section- content1  -->
+  <div class=" container  py-[100px] px-1 flex flex-wrap items-start justify-between ">
+  
+    <!-- about us section- content1 - left   -->
+    <div class=" w-full text-center lg:text-left lg:w-[40%]   relative flex justify-center md:mb-[50px] ">
+      <img src="img/Aboutus-img-1.png" alt="aboutus img 1" class="lg:ml-auto">
+      <img src="img/Aboutus-img-2.png" alt="aboutus img 2"  class=" absolute bottom-[-50px]  md:right-[-50px] hidden lg:block">
+      <div class=" absolute top-[50px]  lg:right-[-50px] bg-rasara-orange text-white py-5 px-8 rounded-lg"> <p>Since 2000</p> </div>
+    </div>
+  
+    <!-- about us section- content1 - right   -->
+    <div class=" w-full   lg:w-[60%]  px-2 lg:pl-[10%] mt-4 md:mt-0 ">   
+      <p class="text-rasara-orange text-center  lg:text-left ">About US</p>
+      <h3 class="text-[30px] sm:text-[35px] md:text-[40px]  text-rasara-gray-1 font-semibold font-Lato leading-[40px] my-4 text-center lg:text-left ">Authenticity in Every Aspect, Just like our properise</h3>
+      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
+
+      <!-- box  1-->
+      <div class=" w-[100%] lg:w-[90%] bg-white rounded-lg py-3 px-5 border border-l-4 border-transparent hover:bg-white hover:border-l-4 hover:border-rasara-orange sm:flex my-5 duration-500">
+
+        <!-- circle  -->
+        <div class="xxx-rounded-circle bg-white  hidden sm:w-[100px] sm:h-[100px] rounded-[100%] flex-shrink-0 border border-rasara-orange sm:flex justify-center items-center mr-[15px]">
+          <i class="fa-solid fa-house text-[35px] text-rasara-orange"></i>
+        </div>
+
+        <div class=" w-auto"> 
+          <h5 class="text-[22px] text-rasara-gray-1 font-Lato font-bold mb-2">Modern and unique Residence</h5>
+          <p class=" text-justify">In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
+        </div>
+
+      </div> <!--end  box  -->
+
+       <!-- box  2-->
+       <div class=" w-[100%] lg:w-[90%] bg-white rounded-lg py-3 px-5 border border-l-4 border-transparent hover:bg-white hover:border-l-4 hover:border-rasara-orange sm:flex my-5 duration-500">
+
+        <!-- circle  -->
+        <div class="xxx-rounded-circle bg-white  hidden sm:w-[100px] sm:h-[100px] rounded-[100%] flex-shrink-0 border border-rasara-orange sm:flex justify-center items-center mr-[15px]">        
+          <i class="fa-solid fa-star text-[35px] text-rasara-orange"></i>
+        </div>
+
+        <div class=" w-auto"> 
+          <h5 class="text-[22px] text-rasara-gray-1 font-Lato font-bold mb-2">Full Furnished</h5>
+          <p class=" text-justify">In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
+        </div>
+
+      </div> <!--end  box  -->
+
+       <!-- box  3 -->
+       <div class=" w-[100%] lg:w-[90%] bg-white rounded-lg py-3 px-5 border border-l-4 border-transparent hover:bg-white hover:border-l-4 hover:border-rasara-orange sm:flex my-5 duration-500">
+
+        <!-- circle  -->
+        <div class="xxx-rounded-circle bg-white  hidden sm:w-[100px] sm:h-[100px] rounded-[100%] flex-shrink-0 border border-rasara-orange sm:flex justify-center items-center mr-[15px]">
+       
+          <i class="fa-solid fa-person-walking-arrow-loop-left text-[35px] text-rasara-orange"></i>
+        </div>
+
+        <div class=" w-auto"> 
+          <h5 class="text-[22px] text-rasara-gray-1 font-Lato font-bold mb-2">Non Stop Security</h5>
+          <p class=" text-justify">In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
+        </div>
+
+      </div> <!--end  box  -->
+
+   
+
+      
+      
+
+
+    </div>
+   
+  </div>
+  
+</section> <!-- aboutus section  -end -->
+
+
+<!-- filter section   -->
+<section class=" bg-white">
+  <div class="container py-[75px]  flex flex-col items-center ">
+
+    <!-- heading  -->
+    <div class="text-center">
+      <h1 class="text-[30px] sm:text-[35px] md:text-[40px]  text-rasara-gray-1 font-semibold font-Lato "> Freshly Available Rental Properties </h1>
+      <p class="py-[30px]"> In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
+    </div>
+
+    <!-- button filter  -->
+    <div class="filter_button flex flex-wrap justify-center gap-y-3">
+      <button data-name="all" class="active py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white mr-4" >Show all</button>
+      <button data-name="house" class="py-2 px-4 rounded-[70px] border border-rasara-gray-2  hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white mr-4">House</button>
+      <button data-name="office" class="py-2 px-4 rounded-[70px] border border-rasara-gray-2  hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white mr-4">Office</button>
+      <button data-name="apartment" class="py-2 px-4 rounded-[70px] border border-rasara-gray-2  hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white mr-4">Appartment</button>
+    </div> <!--end button filter  -->
+
+    <!-- Image cards -->
+    <div class="filterable_cards w-full mt-8 flex  flex-wrap gap-y-10 justify-evenly">
+
+       <!-- house 1 -->
+       <div class="card shadow-lg rounded-[28px] hover:scale-105 duration-300" data-name="house">
+
+       <div> <img src="img/filter-img/h1.png" alt=""></div>
+       <div class=" p-3">
+        <h5 class="font-bold">Luxury Duplex House</h5>
+        <p> <i class="fa-solid fa-location-dot"></i>  Kandy, Sri lanka </p>
+        <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+
+        <div class="flex justify-between items-center"> 
+          <h5 class="font-bold">$4500</h5>
+          <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+        </div>
+
+       </div>
+
+      </div> <!-- end phones 1 -->
+
+       <!-- house 2 -->
+       <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="house">
+
+        <div> <img src="img/filter-img/h2.png" alt=""></div>
+        <div class=" p-3">
+         <h5 class="font-bold">Luxury Semi House</h5>
+         <p> <i class="fa-solid fa-location-dot"></i>  Galle, Sri lanka  </p>
+         <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+ 
+         <div class="flex justify-between items-center"> 
+           <h5 class="font-bold">$4500</h5>
+           <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+         </div>
+ 
+        </div>
+ 
+       </div> <!-- end phones 1 -->
+
+        <!-- house 3-->
+        <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="house">
+
+          <div> <img src="img/filter-img/h3.png" alt=""></div>
+          <div class=" p-3">
+           <h5 class="font-bold">Luxury  House</h5>
+           <p> <i class="fa-solid fa-location-dot"></i> Colombo, Sri lanka  </p>
+           <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+   
+           <div class="flex justify-between items-center"> 
+             <h5 class="font-bold">$4500</h5>
+             <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+           </div>
+   
+          </div>
+   
+         </div> <!-- end phones 1 -->
+
+           <!-- office 1 -->
+       <div class="card shadow-lg rounded-[28px] hover:scale-105 duration-300" data-name="office">
+
+        <div> <img src="img/filter-img/office1.png" alt=""></div>
+        <div class=" p-3">
+         <h5 class="font-bold">Luxury Duplex Office</h5>
+         <p> <i class="fa-solid fa-location-dot"></i>  Kandy, Sri lanka </p>
+         <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+ 
+         <div class="flex justify-between items-center"> 
+           <h5 class="font-bold">$4500</h5>
+           <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+         </div>
+ 
+        </div>
+ 
+       </div> <!-- end phones 1 -->
+ 
+        <!-- office 2 -->
+        <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="office">
+ 
+         <div> <img src="img/filter-img/office2.png" alt=""></div>
+         <div class=" p-3">
+          <h5 class="font-bold">Luxury Semi Office</h5>
+          <p> <i class="fa-solid fa-location-dot"></i> Galle, Sri lanka  </p>
+          <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+  
+          <div class="flex justify-between items-center"> 
+            <h5 class="font-bold">$4500</h5>
+            <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+          </div>
+  
+         </div>
+  
+        </div> <!-- end phones 1 -->
+ 
+         <!-- office 3-->
+         <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="office">
+ 
+           <div> <img src="img/filter-img/office3.png" alt=""></div>
+           <div class=" p-3">
+            <h5 class="font-bold">Luxury  Office</h5>
+            <p> <i class="fa-solid fa-location-dot"></i> Colombo, Sri lanka </p>
+            <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+    
+            <div class="flex justify-between items-center"> 
+              <h5 class="font-bold">$4500</h5>
+              <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+            </div>
+    
+           </div>
+    
+          </div>
+
+           <!-- apertment 1-->
+         <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="apartment">
+ 
+          <div> <img src="img/filter-img/app1.png" alt=""></div>
+          <div class=" p-3">
+           <h5 class="font-bold">Luxury Duplex Apartment</h5>
+           <p> <i class="fa-solid fa-location-dot"></i>  Kandy, Sri lanka </p>
+           <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+   
+           <div class="flex justify-between items-center"> 
+             <h5 class="font-bold">$4500</h5>
+             <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+           </div>
+   
+          </div>
+   
+         </div>
+
+          <!-- apertment 2-->
+          <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="apartment">
+ 
+              <div> <img src="img/filter-img/app2.png" alt=""></div>
+              <div class=" p-3">
+               <h5 class="font-bold">Luxury Semi Apartment</h5>
+               <p> <i class="fa-solid fa-location-dot"></i>  Galle, Sri lanka  </p>
+               <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+       
+               <div class="flex justify-between items-center"> 
+                 <h5 class="font-bold">$4500</h5>
+                 <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+               </div>
+       
+              </div>
+       
+           </div>
+            <!-- apertment 3-->
+          <div class="card shadow-lg rounded-[28px]  hover:scale-105 duration-300" data-name="apartment">
+ 
+            <div> <img src="img/filter-img/app3.png" alt=""></div>
+            <div class=" p-3">
+             <h5 class="font-bold">Luxury Apartment</h5>
+             <p> <i class="fa-solid fa-location-dot"></i>  Colombo, Sri lanka  </p>
+             <p class="my-5"> <span class="mr-3"> 8 Bedroom </span>  <span  class="mr-3">2 Bathrooms</span>  <span  class="mr-3">2 kitchen</span> </p>
+     
+             <div class="flex justify-between items-center"> 
+               <h5 class="font-bold">$4500</h5>
+               <button class="py-2 px-4 rounded-[70px] border border-rasara-gray-2 hover:bg-rasara-orange hover:border-rasara-orange duration-300 hover:text-white ">book now</button>
+             </div>
+     
+            </div>
+     
+         </div>
+
+    </div> <!-- end- Image cards -->
+ 
+  </div>
+</section> <!-- end- filter section   -->
+
+
+
+
+
+<!-- Our Services section  -->
+<section class="bg-rasara-bg-blue  py-[50px]">
+  <div class="container ">
+    <!-- headder  -->
+    <div class=" text-center lg:text-left">
+      <h3 class="text-[30px] sm:text-[35px] md:text-[40px]  text-rasara-gray-1 font-semibold font-Lato leading-[40px] "> Our Services</h3>
+      <p class="lg:w-[60%] my-5  "> In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, </p>
+    </div>
+
+    <!-- flex box  -->
+    <div class="flex flex-wrap-reverse items-center justify-center  "> 
+      <!-- left  -->
+      <div class=" w-[100%] lg:w-[60%]"> 
+         
+        <!-- box 1 -->
+        <div class="flex items-center">
+          <div class="w-[50px] h-[50px] mr-3 "> <img src="img/home-1 1.png" alt=""> </div>
+          <h5 class=" text-[22px] text-rasara-gray-1 font-Lato font-bold">Smart Homes</h5>
+        </div>
+        <p class="lg:w-[95%] mt-2 mb-4">In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, </p>
+        <!-- end box  -->
+
+          <!-- box  2-->
+          <div class="flex items-center">
+            <div class="w-[50px] h-[50px] mr-3 "><img src="img/Architecture Design-2 1.png" alt=""> </div>
+            <h5 class=" text-[22px] text-rasara-gray-1 font-Lato font-bold">Architecture Design</h5>
+          </div>
+          <p class="w-[95%] mt-2 mb-4">In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, </p>
+          <!-- end box  -->
+
+                  <!-- box 3 -->
+        <div class="flex items-center">
+          <div class="w-[50px] h-[50px] mr-3 "> <img src="img/Luxury Apartment-3 1.png" alt=""> </div>
+          <h5 class=" text-[22px] text-rasara-gray-1 font-Lato font-bold">Luxury Apartment</h5>
+        </div>
+        <p class="w-[95%] mt-2 mb-4">In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, </p>
+        <!-- end box  -->
+
+          <!-- box 4 -->
+          <div class="flex items-center">
+            <div class="w-[50px] h-[50px] mr-3 "> <img src="img/Private Security-4 1.png" alt=""> </div>
+            <h5 class=" text-[22px] text-rasara-gray-1 font-Lato font-bold">Private Security</h5>
+          </div>
+          <p class="w-[95%] mt-2 mb-4">In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, </p>
+          <!-- end box  -->
+
+
+      </div>
+
+      <!-- right img  -->
+      <div class="w-[100%] lg:w-[40%]  relative "> 
+        <img class="w-[90%] lg:w-[100%] mb-10 lg:mb-0 mx-auto" src="img/building2.jpg" alt="">
+
+          <!-- absoulte box  -->
+        <div class="bg-white rounded-lg flex items-center justify-evenly py-2 px-3 absolute top-[50px] left-[-40px]">
+          <div class=" w-[50px] h-[50px] rounded-[100%] mr-2 flex justify-center items-center flex-shrink-0 border border-rasara-orange"> <i class="fa-solid fa-building"></i> </div>
+          <div>
+            <p > Total Sell</p>
+            <h5 class="text-[22px] text-rasara-gray-1 font-Lato font-bold" > 2000 Units </h5>
+          </div>
+        
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>  <!-- end Our Services section  -->
+
+
+<!-- blank Services section  -->
+<section class="bg-white h-[225px] w-full px-2">
+
+<!-- news letter  -->
+<div class=" container bg-rasara-orange py-5 rounded-[20px] translate-y-[100px]">
+
+<h3 class="text-[30px] sm:text-[35px] md:text-[40px]  text-white font-semibold font-Lato text-center mb-4"> Subscribe To Our Newsletter </h3>
+
+
+<div class="email mx-auto">
+ 
+  <input class="" type="email" placeholder="Email">
+  <i class="icon fa fa-envelope"></i>
+  <button class="sbbtn hidden md:block " type="submit">Subscribe</button>
+  <button class="sbbtn2 "> <i class="fa-solid fa-circle-arrow-right"></i></button>
+  
+</div>
+
+
+</div> <!--end news letter  -->
+
+</section> <!-- end blank Services section  -->
+
+
+<!-- footer section  -->
+<footer class="pb-[50px] pt-[100px] bg-rasara-bg-blue">
+
+  <div class="container flex flex-wrap justify-between text-center lg:text-left">
+
+    <div class="w-[100%] md:w-[47%] lg:w-[30%]  mr-[1%]">
+
+      <img src="img/fooret-logo.png" alt="footer logo" class="mx-auto lg:mx-0 ">
+      <p class="my-[20px]">In publishing and graphic design, Lorem ipsum is a placeholder text commonly  In publishing and graphic design, </p>
+      <div class="flex justify-center lg:justify-start "> 
+        <img src="img/google play 1.png" alt="google img" class="mr-2">
+        <img src="img/google play 2.png" alt="google img">
+      </div>
+
+    </div>
+
+    <div class="w-[100%] md:w-[47%]  lg:w-[20%] "> 
+      <h1 class="text-[22px] font-semibold my-[25px] ">Quick links</h1> 
+      
+      <ul >
+        <li> <a href="#"> About Us</a> </li>
+        <li> <a href="#"> Services</a> </li>
+        <li> <a href="#"> Blog</a> </li>
+        <li> <a href="#"> Contact</a> </li>
+      </ul>
+    </div>
+
+    <div class="w-[100%] md:w-[47%] lg:w-[20%] "> 
+      <h1 class="text-[22px] font-semibold my-[25px] ">Services</h1> 
+      
+      <ul >
+        <li> <a href="#">Contact Support</a> </li>
+        <li> <a href="#"> Help Center</a> </li>
+        <li> <a href="#"> Privacy Policy</a> </li>
+        <li> <a href="#"> Team</a> </li>
+      </ul>
+    </div>
+
+    <div class="w-[100%] md:w-[47%] lg:w-[25%] "> 
+      <h1 class="text-[22px] font-semibold my-[25px] ">Contact</h1> 
+      
+      <ul >
+        <li> <a href="#"> Address Homagama</a> </li>
+        <li> <a href="#"> Phone : 077101023</a> </li>        
+      </ul>
+      <div class="mt-2">
+        <i class="fa-brands fa-square-instagram p-2 bg-rasara-orange rounded-[100%] text-white border border-transparent hover:border-rasara-orange hover:bg-white hover:text-rasara-orange duration-400"></i>
+        <i class="fa-brands fa-facebook p-2 bg-rasara-orange rounded-[100%] text-white border border-transparent hover:border-rasara-orange hover:bg-white hover:text-rasara-orange duration-400"></i>
+        <i class="fa-brands fa-twitter p-2 bg-rasara-orange rounded-[100%] text-white border border-transparent hover:border-rasara-orange hover:bg-white hover:text-rasara-orange duration-400"></i>
+        <i class="fa-brands fa-whatsapp p-2 bg-rasara-orange rounded-[100%] text-white border border-transparent hover:border-rasara-orange hover:bg-white hover:text-rasara-orange duration-400"></i>
+        <i class="fa-brands fa-linkedin p-2 bg-rasara-orange rounded-[100%] text-white border border-transparent hover:border-rasara-orange hover:bg-white hover:text-rasara-orange duration-400"></i>
+      </div>
+    </div>
+
+
+   
+
+  </div>
+
+</footer> <!-- end footer section  -->
+
+
+
+<script>
+  // header menu nav ########################################################
+  function Menu(e) {
+    let list = document.querySelector('ul');
+    e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu" , list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+  }
+
+
+  // select all filter button and filterable card ######################################
+
+const filterButtons = document.querySelectorAll(".filter_button button");
+const filterableCards = document.querySelectorAll(".filterable_cards .card");
+// console.log(filterButtons, filterableCards)
+
+
+// Define the filterCard function
+const filterCards = e => {
+  document.querySelector(".active").classList.remove("active");
+  e.target.classList.add("active");
+  console.log(e.target);
+
+
+// interate over each filterable card 
+filterableCards.forEach(card => {
+  // add "hide" class to hide the initialy
+  card.classList.add("hide");
+  
+  //check if the card match the selected filter or "all" is slected
+  if(card.dataset.name === e.target.dataset.name || e.target.dataset.name === "all"){
+    card.classList.remove("hide");
+  }
+});
+};
+
+// Add click event listner to each filter button 
+filterButtons.forEach(button => button.addEventListener("click", filterCards ));
+
+// ################################################################
+
+</script>
+
+</body>
+</html>
+
+
